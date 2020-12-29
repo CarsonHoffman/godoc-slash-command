@@ -1,0 +1,3 @@
+# GoDoc Slash Command
+
+A basic GoDoc slash command handler for use with Discord. The formatting of the output is less than exemplary (if the command is invoked with a package name, the output is fully in a code block, but this seems to be a niche use-case; types or functions are much more often requested). Signature verification is performed via [caddy-discord-interactions-verifier](https://github.com/CarsonHoffman/caddy-discord-interactions-verifier) (which is why you don't see anything here).
